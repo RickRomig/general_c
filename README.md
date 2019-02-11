@@ -29,3 +29,7 @@
     * Converts a Celsius temperature to Fahrenheit.
  * double f2c(double f)
     * Converts a Fahrenheit temperature to Celsius.
+ * double circleArea(double radius)
+    * Calculatess the area of a circle.
+ * double circumference(double radius)
+    * Calculates the circumference of a circle
