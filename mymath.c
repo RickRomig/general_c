@@ -40,7 +40,7 @@
 
 /*
  * FUNCTION:
- *     findCylVolume(int cylinder_diameter, int cylinder_height)
+ *     find_cyl_volume(int cylinder_diameter, int cylinder_height)
  * DESCRIPTION
  *     Computes the volume of a cylinder
  * PARAMETERS
@@ -55,7 +55,7 @@
  * MODIFICATION HISTORY
  *     date of modification and a brief description
  */
-double findCylVolume(int cylinder_diameter, int cylinder_height)
+double find_cyl_volume(int cylinder_diameter, int cylinder_height)
 {
 	double radius;
 
@@ -66,7 +66,7 @@ double findCylVolume(int cylinder_diameter, int cylinder_height)
 
 /*
  * FUNCTION:
- *     findCubeEdge(double cylinder_volume)
+ *     find_cube_edge(double cylinder_volume)
  * DESCRIPTION
  *     Computes the length of a cube's edge based on the volume of a cylinder
  * PARAMETERS
@@ -81,14 +81,14 @@ double findCylVolume(int cylinder_diameter, int cylinder_height)
  * MODIFICATION HISTORY
  *     date of modification and a brief description
  */
-double findCubeEdge(double cylinder_volume)
+double find_cube_edge(double cylinder_volume)
 {
 	return cbrt(cylinder_volume);
 }
 
 /*
  * FUNCTION:
- *     long forFactorial(int n)
+ *     long factorial(int n)
  * DESCRIPTION
  *     Calculates a factorial using a for loop
  * PARAMETERS
@@ -117,7 +117,7 @@ long forFactorial(int number)
 
 /*
  * FUNCTION:
- *     long doFactorial(int number)
+ *     long factorial(int number)
  * DESCRIPTION
  *     Calculates a factorial using a do-while loop
  * PARAMETERS
@@ -148,7 +148,7 @@ long doFactorial(int number)
 
 /*
  * FUNCTION:
- *     long whileFactorial(int number)
+ *     long factorial(int number)
  * DESCRIPTION
  *     Calculates a factorial using a do-while loop
  * PARAMETERS
@@ -378,4 +378,46 @@ double c2f(double c)
 double f2c(double f)
 {
  	return ((5.0/9.0) * (f - 32.0));
+}
+
+/*
+ * FUNCTION:
+ *     double circleArea(double radius)
+ * DESCRIPTION
+ *     Calculates the area of a circle
+ * PARAMETERS
+ *     double radius
+ * RETURNS
+ *     double - the area of the circle
+ * SIDE EFFECTS
+ *     info about changes of state and alterations to global variables
+ * LIMITATIONS
+ *     describe any known bugs, restrictions, or limitations
+ * MODIFICATION HISTORY
+ *     date of modification and a brief description
+ */
+double circleArea(double radius)
+{
+	return (PI * radius * radius);
+}
+
+/*
+ * FUNCTION:
+ *     double circumference(double radius)
+ * DESCRIPTION
+ *     Calculate the circumference of a circle
+ * PARAMETERS
+ *     double radius
+ * RETURNS
+ *     double - the circumference of the circle
+ * SIDE EFFECTS
+ *     info about changes of state and alterations to global variables
+ * LIMITATIONS
+ *     describe any known bugs, restrictions, or limitations
+ * MODIFICATION HISTORY
+ *     date of modification and a brief description
+ */
+double circumference(double radius)
+{
+	return (2.0 * PI * radius);
 }

@@ -35,8 +35,8 @@
 #ifndef MYMATH_H
 #define MYMATH_H
 
-double findCylVolume(int cylinder_diameter, int cylinder_height);
-double findCubeEdge(double cylinder_volume);
+double find_cyl_volume(int cylinder_diameter, int cylinder_height);
+double find_cube_edge(double cylinder_volume);
 long forFactorial(int number);
 long doFactorial(int number);
 long whileFactorial(int number);
@@ -47,5 +47,7 @@ int isPowerOfTwo(unsigned int x);
 int calcExponent(unsigned int x);
 double c2f(double c);
 double f2c(double f);
+double circleArea(double radius);
+double circumference(double radius);
 
 #endif
