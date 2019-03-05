@@ -3,7 +3,6 @@
 
 ### mymath
 1. Uses math.h so linking with -lm flag will be nesssary with some compilers such as GCC.
-
 2. A library of various and sundry math functions:
  * double findCylVolume(int cylinder_diameter, int cylinder_height)
     * Calculates the volume of a cylinder.
