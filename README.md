@@ -42,9 +42,10 @@ Converts temperatures from either Celsius to Fahrenheit or Fahrentheith to Celsi
 * [GitHub](https://github.com/RickRomig/FnLoC)
 * [Rick's Tech Stuff](https://ricktech.wordpress.com)
 * [Twitter (@ludditegeek)](https://twitter.com/ludditegeek)
-* Email: <rick.romig@gmail.com> or <rick.romig@mymetronet.net>
+* Email: [rick.romig@gmail.com](mailto:rick.romig@gmail.com) or [rick.romig@mymetronet.net](mailto:rick.romig@mymentronet.net)
 
 Rick Romig
+*The Luddite Geek*
 15 October 2023
 
 ### DISCLAIMER
